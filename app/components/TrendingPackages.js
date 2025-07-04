@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect, useRef } from "react";
 import { galleryConstants } from "../utils/constants";
+import Image from "next/image";
 
 export default function TrendingPackages() {
   const [visibleItems, setVisibleItems] = useState([]);
@@ -42,9 +43,11 @@ export default function TrendingPackages() {
       <div className="mt-10 columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4 mx-auto">
         {galleryConstants.map((item, index) => (
           <div key={index} className="break-inside-avoid">
-            <img
+            <Image
               src={item.src}
               alt={item.name}
+              width={300}
+              height={500}
               className={`w-full rounded-md h-auto object-cover ${
                 visibleItems.includes(item.src) ? "" : "lazy-load"
               }`}

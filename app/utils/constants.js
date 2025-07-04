@@ -156,27 +156,27 @@ export const dummy = [
 export const galleryConstants = [
   {
     name: "Temple1",
-    src: "images/temple1.jpg",
+    src: "/images/temple1.jpg",
   },
   {
     name: "Temple2",
-    src: "images/goldenTemple.png",
+    src: "/images/goldenTemple.png",
   },
   {
     name: "Temple3",
-    src: "images/temple2.jpg",
+    src: "/images/temple2.jpg",
   },
  
   {
     name: "Temple2",
-    src: "images/goldenTemple.png",
+    src: "/images/goldenTemple.png",
   },
   {
     name: "Temple1",
-    src: "images/temple1.jpg",
+    src: "/images/temple1.jpg",
   },
   {
     name: "Temple3",
-    src: "images/temple2.jpg",
+    src: "/images/temple2.jpg",
   },
 ];

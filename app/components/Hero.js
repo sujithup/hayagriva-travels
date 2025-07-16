@@ -19,11 +19,11 @@ const Hero = () => {
         className="block md:hidden z-0"
       />
       <div className="absolute inset-0 max-w-[690px]  z-10 flex flex-col  justify-center items-start px-8 md:px-10 w-fit">
-        <div className=" w-full mt-4 md:mt-0 pl-6 rounded bg-white/10 backdrop-blur-xl backdrop-opacity-30">
-          <h1 className="text-white  text-3xl md:text-6xl font-bold max-w-[700px] leading-tight mb-2 md:mb-6">
+        <div className=" w-full mt-6 md:mt-0 pl-6 rounded  md:bg-white/10  md:backdrop-blur-xl md:backdrop-opacity-30">
+          <h1 className="text-white  text-2xl md:text-6xl font-bold max-w-[700px] leading-tight mb-2 md:mb-6">
             Begin Your Spiritual Journey with Us
           </h1>
-          <p className="text-white text-lg md:text-xl mb-8 max-w-[600px]">
+          <p className="text-white text-lg md:text-xl mb-1 md:mb-8 max-w-[600px]">
             Explore sacred destinations across India. Discover peace, devotion,
             and a deeper connection.
           </p>

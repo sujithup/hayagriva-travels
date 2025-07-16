@@ -18,9 +18,10 @@ const Navbar = () => {
           className="text-black flex items-center text-2xl"
           aria-label="link to the homepage"
         >
+          {/* PC */}
           <Image
             src="/images/hh_Logo.png"
-            className="mr-4"
+            className="mr-4 hidden md:block"
             alt="logo"
             loading="eager"
             width="100"
@@ -28,12 +29,29 @@ const Navbar = () => {
           />
           <Image
             src="/images/hh_Logo2.png"
+            className="hidden md:block"
             alt="logo"
             loading="eager"
             width="180"
             height="180"
           />
-          {/* Hayagriva Holidays */}
+          {/* Mobile */}
+          <Image
+            src="/images/hh_Logo.png"
+            className="mr-4 block md:hidden"
+            alt="logo"
+            loading="eager"
+            width="60"
+            height="60"
+          />
+          <Image
+            src="/images/hh_Logo2.png"
+            alt="logo"
+            className="block md:hidden"
+            loading="eager"
+            width="140"
+            height="180"
+          /> 
         </Link>
         <div className="mobile-menu block pt-1 md:hidden">
           {!navbarOpen ? (

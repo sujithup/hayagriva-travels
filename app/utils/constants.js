@@ -1,15 +1,19 @@
 export const navLinks = [
   {
     title: "Home",
-    path: "#home",
+    path: "/",
   },
   {
     title: "Packages",
-    path: "#features",
+    path: "#packages",
   },
   {
     title: "Rentals",
-    path: "#photos",
+    path: "#rentals",
+  },
+  {
+    title: "About Us",
+    path: "#aboutus",
   },
 ];
 
@@ -156,15 +160,15 @@ export const dummy = [
 export const galleryConstants = [
   {
     name: "Temple1",
-    src: "/images/temple1.jpg",
+    src: "/images/package/kashi.jpg",
   },
   {
     name: "Temple2",
-    src: "/images/goldenTemple.png",
+    src: "/images/temple1.jpg",
   },
   {
     name: "Temple3",
-    src: "/images/temple2.jpg",
+    src: "/images/package/statue.png",
   },
  
   {
@@ -173,10 +177,10 @@ export const galleryConstants = [
   },
   {
     name: "Temple1",
-    src: "/images/temple1.jpg",
+    src: "/images/package/kedar.jpg",
   },
   {
     name: "Temple3",
-    src: "/images/temple2.jpg",
+    src: "/images/package/hawamahal.jpg",
   },
 ];

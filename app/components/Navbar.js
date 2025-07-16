@@ -3,6 +3,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { CiMenuFries } from "react-icons/ci";
 import { IoMdClose } from "react-icons/io";
+import { IoCall } from "react-icons/io5";
 import { navLinks } from "../utils/constants";
 import Image from "next/image";
 
@@ -10,11 +11,29 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <nav className="fixed mx-auto bg-white top-0 left-0 right-0 z-10">
-      <div className="flex px-12 py-4 flex-wrap items-center justify-between mx-auto">
-        <Link href="/" className="text-black" aria-label="link to the homepage">
-          Hyagriva
-          {/* <Image src="/logo.png" alt="logo" loading="eager" width="100" height="100"/> */}
+    <nav className="fixed mx-auto bg-white top-0 left-0 right-0 z-50">
+      <div className="flex px-2 md:px-6 py-2  md:py-3 flex-wrap items-center justify-between mx-auto">
+        <Link
+          href="/"
+          className="text-black flex items-center text-2xl"
+          aria-label="link to the homepage"
+        >
+          <Image
+            src="/images/hh_Logo.png"
+            className="mr-4"
+            alt="logo"
+            loading="eager"
+            width="100"
+            height="60"
+          />
+          <Image
+            src="/images/hh_Logo2.png"
+            alt="logo"
+            loading="eager"
+            width="180"
+            height="180"
+          />
+          {/* Hayagriva Holidays */}
         </Link>
         <div className="mobile-menu block pt-1 md:hidden">
           {!navbarOpen ? (
@@ -44,13 +63,24 @@ const Navbar = () => {
                 <Link
                   href={link.path}
                   aria-label="link to the navbar links"
-                  className="block py-2 pl-3 pr-4  text-black sm:text-xl font-bold rounded md:p-0 hover:text-[#EE227A]"
+                  className="block py-2 pl-3 pr-4  text-black font-sans  sm:text-xl font-medium rounded md:p-0 hover:text-[#364a95]"
                 >
                   {link.title}
                 </Link>
               </li>
             ))}
           </ul>
+        </div>
+
+        <div className="hidden md:block">
+          <a
+            href="tel:9606943215"
+            className="flex items-center gap-2 text-black font-bold text-lg hover:text-[#364a95]"
+            aria-label="Call 18002661100"
+          >
+            <IoCall className="w-5 h-5" />
+            9606943215
+          </a>
         </div>
       </div>
       {navbarOpen && (

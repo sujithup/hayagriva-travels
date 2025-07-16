@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 function Footer() {
   return (
@@ -12,14 +13,19 @@ function Footer() {
             title="Company"
             className="inline-flex items-center"
           >
-            <span className="text-xl font-bold tracking-wide text-[#b82554] uppercase">
-              Hayagriva
-            </span>
+            <Image
+              src="/images/hh_Logo2.png"
+              alt="logo"
+              loading="eager"
+              width="180"
+              height="180"
+            />
           </Link>
-          <div className="mt-6 lg:max-w-sm">
+          <div className="mt-1 lg:max-w-sm">
             <p className="text-sm text-gray-800">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Embark on transformative spiritual journeys with Hayagriva
+              Holidays. Explore sacred sites, connect with ancient wisdom, and
+              find inner peace.
             </p>
           </div>
         </div>
@@ -30,24 +36,24 @@ function Footer() {
           <div className="flex">
             <p className="mr-1 text-gray-800">Phone:</p>
             <p className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800">
-              0000000
+              9606943215
             </p>
           </div>
           <div className="flex">
             <p className="mr-1 text-gray-800">Email:</p>
             <Link
-              href="mailto:hayagriva@gmail.com"
+              href="mailto:hayagrivaholidays@gmail.com"
               aria-label="Our email"
               title="Our email"
               className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
             >
-              hayagriva@gmail.com
+             hayagrivaholidays@gmail.com
             </Link>
           </div>
           <div className="flex">
             <p className="mr-1 text-gray-800">Address:</p>
             <p className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800">
-              Bangalore
+              #27, Padmanabhanagar, Bangalore-70
             </p>
           </div>
         </div>

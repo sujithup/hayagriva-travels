@@ -13,27 +13,27 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Hyagriva Travels - Discover Your Spiritual Journey",
+  title: "Hayagriva Holidays - Discover Your Spiritual Journey",
   description:
-  "Embark on transformative spiritual journeys with Hyagriva. Explore sacred sites, connect with ancient wisdom, and find inner peace.",
+  "Embark on transformative spiritual journeys with Hayagriva Holidays. Explore sacred sites, connect with ancient wisdom, and find inner peace.",
   alternates: {
-    canonical: "https://www.alpsliving.in/",
+    canonical: "https://hayagrivaholidays.com/",
   },
   openGraph: {
-    title: "AlpsLiving - Best Ladies PG near Christ College, Yeshwanthpur campus",
+    title: "Hayagriva Holidays - Discover Your Spiritual Journey",
     description:
-    "Embark on transformative spiritual journeys with Hyagriva. Explore sacred sites, connect with ancient wisdom, and find inner peace.",
-    url: "https://www.alpsliving.in/",
+    "Embark on transformative spiritual journeys with Hayagriva Holidays. Explore sacred sites, connect with ancient wisdom, and find inner peace.",
+    url: "https://hayagrivaholidays.com/",
     type: "website",
     images: [
       {
         url: "https://i.postimg.cc/K8Xr1fyb/Opengraph-1.jpg",
         width: 1200,
         height: 630,
-        alt: "Alpsliving BG pic",
+        alt: "Hayagriva BG pic",
       },
     ],
-    authors: ["Alpliving"],
+    authors: ["Hayagriva"],
   },
 };
 

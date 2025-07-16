@@ -7,6 +7,8 @@ export default function TrendingPackages() {
   const [visibleItems, setVisibleItems] = useState([]);
   const observer = useRef(null);
 
+  // Add kashi, badrinath, statue of unity, golden temple amrutsar,Puri jaganath, hawa mahal
+
   useEffect(() => {
     observer.current = new IntersectionObserver(
       (entries) => {
@@ -37,9 +39,13 @@ export default function TrendingPackages() {
   }, []);
 
   return (
-    <section className="p-8 mt-4" id="photos">
-        <h1 className="text-3xl text-center font-bold mb-1">Fast Selling Holiday Plans</h1>
-        <p className="text-sm *text-gray-500 text-center mb-10">Most trending places of India. Discover iconic places across the nation!</p>
+    <section className="p-8 mt-4" id="trending">
+      <h1 className="text-3xl text-center font-bold mb-1">
+        Fast Selling Holiday Plans
+      </h1>
+      <p className="text-sm *text-gray-500 text-center mb-10">
+        Most trending places of India. Discover iconic places across the nation!
+      </p>
       <div className="mt-10 columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4 mx-auto">
         {galleryConstants.map((item, index) => (
           <div key={index} className="break-inside-avoid">

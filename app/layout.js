@@ -27,9 +27,9 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "https://i.postimg.cc/K8Xr1fyb/Opengraph-1.jpg",
-        width: 1200,
-        height: 630,
+        url: "https://i.postimg.cc/vT4vqTNL/HH-BG.jpg",
+        width: 1127,
+        height: 632,
         alt: "Hayagriva BG pic",
       },
     ],

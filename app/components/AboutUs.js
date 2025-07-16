@@ -27,13 +27,13 @@ function AboutUs() {
             10,000+ happy travelers across India. Our core expertise lies in
             spiritual tourism, curating deeply immersive journeys to sacred
             destinations that connect the soul and soothe the spirit. Over the
-            decades, we’ve become a preferred partner for pilgrimage groups,
+            decades, we have become a preferred partner for pilgrimage groups,
             corporate retreats, and leisure travelers alike.
             <br />
             <br />
             Our passion for service, deep local expertise, and customer-first
             approach have made us a trusted travel companion for thousands.
-            Whether you're booking a spiritual retreat or need a reliable
+            Whether you are booking a spiritual retreat or need a reliable
             vehicle for your journey, we are here to take care of every mile
             with care and commitment. Join us and experience travel, the soulful
             way.
